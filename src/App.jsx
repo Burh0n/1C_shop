@@ -1,6 +1,7 @@
 import React from 'react';
 import Abubakr from './container/Abubakr';
 import Burhon from './container/Burhon'
+import Fayzulloh from './container/Fayzulloh';
 const App = () => {
   return (
     <div className="w-full min-h-screen bg-gray-50">
@@ -14,6 +15,7 @@ const App = () => {
         </div>
         <Burhon/>
       </div>
+      <Fayzulloh/>
     </div>
   );
 };
