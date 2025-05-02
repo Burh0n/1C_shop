@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from '../assets/1.png'; // Eslatma: header.jsx -> assets uchun yo'l: ../assets/...
-
+import logo from '../assets/1.png'; 
 export default function HeroBanner() {
   return (
     <div className="w-full bg-white py-16">

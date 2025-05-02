@@ -17,7 +17,6 @@ const ProductSection = () => {
       }
     ];
   
-    // Product Card render function
     const renderProductCard = (product, index) => {
       return (
         <div key={index} className="bg-white p-8 rounded-lg shadow-sm flex flex-col h-full">

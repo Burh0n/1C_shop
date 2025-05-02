@@ -5,11 +5,25 @@ export default function Navbar() {
   const [activeItem, setActiveItem] = useState(null);
   
   const navItems = [
-    { id: 'how', label: 'Как это работает' },
-    { id: 'instructions', label: 'Инструкции' },
-    { id: 'products', label: 'Продукты' },
-    { id: 'knowledge', label: 'База знаний' },
-    { id: 'about', label: 'О нас' },
+    {   
+        id: 'how',
+        label: 'Как это работает' 
+    },
+    {   
+        id: 'instructions',
+        label: 'Инструкции' 
+    },
+    { 
+        id: 'products', 
+        label: 'Продукты' 
+    },
+    { 
+        id: 'knowledge', 
+        label: 'База знаний' },
+    { 
+        id: 'about', 
+        label: 'О нас' 
+    }
   ];
 
   return (

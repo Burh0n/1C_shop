@@ -18,7 +18,6 @@ const FeatureSection = () => {
       }
     ];
   
-    // Feature Item render function
     const renderFeatureItem = (feature, index) => {
       return (
         <div key={index} className="mb-8">
